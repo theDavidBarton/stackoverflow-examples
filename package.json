@@ -1,0 +1,22 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "jest-environment-node": "^26.6.2",
+    "json2csv": "^5.0.5",
+    "playwright": "^1.10.0",
+    "semver": "^7.3.4",
+    "user-agents": "^1.0.559"
+  },
+  "scripts": {
+    "test": "jest --verbose --runInBand --detectOpenHandles",
+    "start": "node server.js",
+    "lint": "eslint"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}
